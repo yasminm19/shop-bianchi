@@ -1,3 +1,5 @@
+// button menu 
+
 const btnmobile = document.getElementById('btn-menu')
 function toggleMenu() {
   const nav = document.getElementById('nav-lateral')
@@ -5,7 +7,6 @@ function toggleMenu() {
 }
 
 btnmobile.addEventListener('click', toggleMenu)
-
 
 
 const product = document.getElementById('product')
@@ -16,3 +17,10 @@ function toggleList() {
 }
 
 product.addEventListener('click', toggleList)
+
+
+// scroll reveal 
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.capa, .container, .cards, .card-1, .btn-shop, .shop-info, .footer-info', { duration: 1000});

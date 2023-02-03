@@ -31,17 +31,21 @@ body {
 }
 
 .produto {
-  margin-top: 50px;
+  margin-top: 1rem;
+  
   
 }
-.links-page{
-  margin: .5rem .5rem;
-}
 
+.links-page {
+  margin-top: 4rem;
+  margin-left: .5rem;
+
+}
 
 a {
   text-decoration: none;
 }
+
 .links-page a{
   text-decoration: none;
   color: var(--button-color);
@@ -118,4 +122,14 @@ a {
   gap: 2rem;
   margin: 2rem 4rem;
   padding-bottom: 50px;
+}
+
+
+.info-produto,
+.more-info,
+.shop-info,
+.footer-info,
+.card-1,
+.more-products {
+  visibility:visible;
 }
